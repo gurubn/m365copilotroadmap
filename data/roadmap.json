@@ -1,0 +1,84 @@
+{
+  "updated": "2026-07-19T06:00:00.000Z",
+  "counts": { "total": 6, "inDevelopment": 3, "rollingOut": 1, "launched": 2 },
+  "items": [
+    {
+      "id": "567316",
+      "title": "Microsoft 365 Copilot usage report (per-app breakout)",
+      "description": "Admin report showing total enabled and active users, Copilot usage broken out per Microsoft 365 app, and anonymized user-level activity insights.",
+      "status": "In development",
+      "created": "2026-05-02T00:00:00Z",
+      "modified": "2026-07-06T23:00:50Z",
+      "ga": "2026-07-31T00:00:00Z",
+      "products": ["Microsoft 365 Copilot", "Microsoft 365 admin center"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567316"
+    },
+    {
+      "id": "561002",
+      "title": "Copilot Cowork \u2014 agentic task execution",
+      "description": "Agentic system that plans, executes, and delivers completed work grounded in Work IQ. Enabled via usage-based billing with a Cost Management Dashboard in the admin center.",
+      "status": "Launched",
+      "created": "2026-01-15T00:00:00Z",
+      "modified": "2026-06-30T00:00:00Z",
+      "ga": "2026-06-30T00:00:00Z",
+      "products": ["Microsoft 365 Copilot"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561002"
+    },
+    {
+      "id": "559880",
+      "title": "Copilot in Excel with Python",
+      "description": "Copilot applies Python-powered techniques while editing Excel \u2014 transforming data, generating visualizations, and completing multi-step analysis without leaving the workbook.",
+      "status": "Rolling out",
+      "created": "2026-03-10T00:00:00Z",
+      "modified": "2026-05-13T00:00:00Z",
+      "ga": "2026-05-31T00:00:00Z",
+      "products": ["Excel", "Microsoft 365 Copilot"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559880"
+    },
+    {
+      "id": "558210",
+      "title": "Remote MCP servers via Work IQ endpoint",
+      "description": "Supports connecting to remote MCP servers through the Work IQ endpoint, enabling agents to securely invoke external tools and services beyond the local runtime.",
+      "status": "In development",
+      "created": "2026-04-01T00:00:00Z",
+      "modified": "2026-06-20T00:00:00Z",
+      "ga": "2026-06-30T00:00:00Z",
+      "products": ["Microsoft 365 Copilot", "Copilot Studio"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558210"
+    },
+    {
+      "id": "556140",
+      "title": "Copilot memory in Word",
+      "description": "Copilot personalizes responses based on relevant user context and prior interactions, reducing the need to restate preferences or background.",
+      "status": "Launched",
+      "created": "2026-02-20T00:00:00Z",
+      "modified": "2026-05-13T00:00:00Z",
+      "ga": "2026-05-13T00:00:00Z",
+      "products": ["Word", "Microsoft 365 Copilot"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=556140"
+    },
+    {
+      "id": "554770",
+      "title": "Copilot vision \u2014 show-and-ask in voice conversations",
+      "description": "Users show a dashboard, document, image, or real-world object to Copilot and ask questions in a voice conversation; Copilot uses that visual context to explain and guide next steps.",
+      "status": "In development",
+      "created": "2026-04-18T00:00:00Z",
+      "modified": "2026-06-30T00:00:00Z",
+      "ga": "2026-07-31T00:00:00Z",
+      "products": ["Microsoft 365 Copilot"],
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=554770"
+    }
+  ],
+  "news": [
+    {
+      "title": "What\u2019s New in Microsoft 365 Copilot | June 2026",
+      "link": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572",
+      "date": "Mon, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "title": "What\u2019s New in Microsoft 365 Copilot | May 2026",
+      "link": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--may-2026/4522010",
+      "date": "Mon, 08 Jun 2026 00:00:00 GMT"
+    }
+  ]
+}

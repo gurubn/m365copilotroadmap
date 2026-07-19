@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Copilot Roadmap — Signal Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #0a0f1e;
+    --panel: #121a30;
+    --panel-2: #16203a;
+    --line: #26324f;
+    --text: #e7ecf7;
+    --muted: #8593b3;
+    --dev: #f5a623;
+    --roll: #3ec1f0;
+    --live: #37d99a;
+    --accent: #a78bfa;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--ink); color: var(--text);
+    font-family: "Inter", system-ui, sans-serif; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+
+  /* Header */
+  header {
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, #0c1327, #0a0f1e);
+    position: sticky; top: 0; z-index: 5;
+    backdrop-filter: blur(6px);
+  }
+  .head-inner { padding: 22px 0 18px; }
+  .eyebrow {
+    font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 6px;
+  }
+  h1 {
+    font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: clamp(24px, 4vw, 38px);
+    margin: 0; letter-spacing: -.01em;
+  }
+  .updated { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .updated span { color: var(--text); }
+
+  /* Signal strip */
+  .signal { display: flex; gap: 2px; margin: 16px 0 4px; border-radius: 10px; overflow: hidden; height: 40px; }
+  .signal .seg {
+    display: flex; align-items: center; gap: 8px; padding: 0 14px; font-size: 13px; font-weight: 600;
+    white-space: nowrap; color: #0a0f1e; min-width: 0; flex: 1 1 auto;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .seg.dev { background: var(--dev); }
+  .seg.roll { background: var(--roll); }
+  .seg.live { background: var(--live); }
+  .seg .n { font-size: 16px; }
+  .seg .lbl { overflow: hidden; text-overflow: ellipsis; }
+
+  /* Controls */
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 16px 0; }
+  .search {
+    flex: 1 1 240px; min-width: 180px; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 10px; padding: 10px 14px; color: var(--text); font-size: 14px; font-family: inherit;
+  }
+  .search::placeholder { color: var(--muted); }
+  .search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  select {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 10px 12px; color: var(--text); font-size: 14px; font-family: inherit; cursor: pointer;
+  }
+  select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  /* Board */
+  .board { display: grid; grid-template-columns: repeat(3, 1fr) 300px; gap: 16px; padding: 8px 0 60px; }
+  @media (max-width: 1000px) { .board { grid-template-columns: 1fr; } }
+  .col-head {
+    display: flex; align-items: center; gap: 8px; font-family: "Space Grotesk", sans-serif;
+    font-weight: 600; font-size: 14px; margin-bottom: 12px; position: sticky; top: 150px;
+  }
+  .dot { width: 9px; height: 9px; border-radius: 50%; }
+  .dot.dev { background: var(--dev); } .dot.roll { background: var(--roll); } .dot.live { background: var(--live); }
+  .col-head .count { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: 12px; }
+
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px 15px; margin-bottom: 12px; border-left: 3px solid var(--line);
+    transition: transform .12s ease, border-color .12s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: #33436b; }
+  .card.dev { border-left-color: var(--dev); }
+  .card.roll { border-left-color: var(--roll); }
+  .card.live { border-left-color: var(--live); }
+  .card h3 { margin: 0 0 6px; font-size: 15px; font-weight: 600; font-family: "Space Grotesk", sans-serif; }
+  .card h3 a { text-decoration: none; }
+  .card h3 a:hover { text-decoration: underline; }
+  .card p { margin: 0 0 10px; font-size: 13px; color: #c3ccdf; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag {
+    font-size: 11px; color: var(--muted); border: 1px solid var(--line);
+    padding: 2px 7px; border-radius: 999px; font-family: "JetBrains Mono", monospace;
+  }
+  .ga { font-size: 11px; color: var(--accent); font-family: "JetBrains Mono", monospace; }
+  .empty { color: var(--muted); font-size: 13px; padding: 20px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+
+  /* News rail */
+  .news h2 { font-family: "Space Grotesk", sans-serif; font-size: 14px; margin: 0 0 12px; }
+  .news-item { display: block; text-decoration: none; padding: 11px 0; border-bottom: 1px solid var(--line); }
+  .news-item:hover .nt { color: var(--accent); }
+  .nt { font-size: 13px; font-weight: 500; }
+  .nd { font-size: 11px; color: var(--muted); font-family: "JetBrains Mono", monospace; margin-top: 3px; }
+
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; padding: 18px 0 40px; }
+  footer a { color: var(--accent); }
+
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap head-inner">
+    <p class="eyebrow">Microsoft 365 · release signal</p>
+    <h1>Copilot Roadmap</h1>
+    <div class="updated">Data refreshed <span id="updated">—</span> · source: Microsoft 365 public roadmap + Tech Community</div>
+    <div class="signal" id="signal"></div>
+    <div class="controls">
+      <input class="search" id="q" type="search" placeholder="Search features, apps, keywords…" />
+      <select id="product"><option value="">All products</option></select>
+      <select id="sort">
+        <option value="modified">Recently updated</option>
+        <option value="ga">GA date</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="board">
+    <section><div class="col-head"><span class="dot dev"></span>In development <span class="count" id="c-dev"></span></div><div id="col-dev"></div></section>
+    <section><div class="col-head"><span class="dot roll"></span>Rolling out <span class="count" id="c-roll"></span></div><div id="col-roll"></div></section>
+    <section><div class="col-head"><span class="dot live"></span>Launched <span class="count" id="c-live"></span></div><div id="col-live"></div></section>
+    <aside class="news"><h2>From Tech Community</h2><div id="news"></div></aside>
+  </div>
+</main>
+
+<footer class="wrap">
+  Auto-updates weekly via GitHub Actions. All dates are Microsoft estimates and subject to change.
+  · <a href="https://www.microsoft.com/microsoft-365/roadmap" target="_blank" rel="noopener">Official roadmap</a>
+</footer>
+
+<script>
+const STATUS = { "In development": "dev", "Rolling out": "roll", "Launched": "live" };
+let DATA = { items: [], news: [] };
+
+const esc = (s) => (s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+const fmt = (d) => d ? new Date(d).toLocaleDateString(undefined, { year:"numeric", month:"short", day:"numeric" }) : "";
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const prod = document.getElementById("product").value;
+  const sort = document.getElementById("sort").value;
+
+  let items = DATA.items.filter(i => {
+    const text = (i.title + " " + i.description + " " + (i.products||[]).join(" ")).toLowerCase();
+    return (!q || text.includes(q)) && (!prod || (i.products||[]).includes(prod));
+  });
+  items.sort((a,b) => {
+    if (sort === "title") return a.title.localeCompare(b.title);
+    if (sort === "ga") return new Date(a.ga||"2999") - new Date(b.ga||"2999");
+    return new Date(b.modified||0) - new Date(a.modified||0);
+  });
+
+  for (const key of ["dev","roll","live"]) {
+    const col = document.getElementById("col-" + key);
+    const list = items.filter(i => STATUS[i.status] === key);
+    document.getElementById("c-" + key).textContent = list.length;
+    col.innerHTML = list.length ? list.map(card).join("") :
+      '<div class="empty">Nothing matches here.</div>';
+  }
+}
+
+function card(i) {
+  const key = STATUS[i.status] || "dev";
+  const tags = (i.products||[]).slice(0,3).map(p => `<span class="tag">${esc(p)}</span>`).join("");
+  const ga = i.ga ? `<span class="ga">GA ${fmt(i.ga)}</span>` : "";
+  return `<article class="card ${key}">
+    <h3><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
+    <p>${esc(i.description).slice(0,220)}${i.description.length>220?"…":""}</p>
+    <div class="meta">${tags}${ga}</div>
+  </article>`;
+}
+
+function buildSignal(c) {
+  const total = c.total || 1;
+  document.getElementById("signal").innerHTML = `
+    <div class="seg dev"  style="flex:${c.inDevelopment||0.4}"><span class="n">${c.inDevelopment}</span><span class="lbl">In development</span></div>
+    <div class="seg roll" style="flex:${c.rollingOut||0.4}"><span class="n">${c.rollingOut}</span><span class="lbl">Rolling out</span></div>
+    <div class="seg live" style="flex:${c.launched||0.4}"><span class="n">${c.launched}</span><span class="lbl">Launched</span></div>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch("./data/roadmap.json?_=" + Date.now());
+    DATA = await res.json();
+  } catch (e) {
+    document.querySelector(".board").innerHTML =
+      '<div class="empty">Could not load roadmap.json. Run the fetch script or the GitHub Action first.</div>';
+    return;
+  }
+  document.getElementById("updated").textContent = fmt(DATA.updated);
+  buildSignal(DATA.counts || {});
+
+  const products = [...new Set(DATA.items.flatMap(i => i.products||[]))].sort();
+  const sel = document.getElementById("product");
+  products.forEach(p => { const o = document.createElement("option"); o.value = o.textContent = p; sel.appendChild(o); });
+
+  document.getElementById("news").innerHTML = (DATA.news||[]).map(n =>
+    `<a class="news-item" href="${esc(n.link)}" target="_blank" rel="noopener">
+       <div class="nt">${esc(n.title)}</div><div class="nd">${esc(n.date)}</div></a>`).join("")
+    || '<div class="empty">No posts loaded.</div>';
+
+  ["q","product","sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
+  render();
+}
+load();
+</script>
+</body>
+</html>
