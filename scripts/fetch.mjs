@@ -5,11 +5,62 @@
 import { writeFile, mkdir } from "node:fs/promises";
 
 const ROADMAP_API = "https://www.microsoft.com/releasecommunications/api/v1/m365";
-// TechCommunity "What's New in Microsoft 365 Copilot" blog board RSS.
+// TechCommunity "Microsoft 365 Copilot Blog" board RSS.
 // If the feed URL changes, only this line needs updating; the build degrades
-// gracefully (empty news list) rather than failing.
+// gracefully (empty news list) rather than failing. Note: this board feed
+// only ever returns the latest ~20 posts (no pagination param works), which
+// in practice covers roughly 2-3 months of posting cadence.
 const TECHCOMMUNITY_RSS =
-  "https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog/rss";
+  "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365CopilotBlog";
+const NEWS_MONTHS = 3;
+
+// Specific product/app names to detect inside TechCommunity post text, so
+// posts can be tagged with the same product names used on roadmap items and
+// then cross-linked. Deliberately excludes generic tags like "Microsoft 365
+// Copilot" — matching on those would link almost every post to almost every
+// item, which isn't useful.
+const PRODUCT_KEYWORDS = {
+  Word: [/\bword\b/i],
+  Excel: [/\bexcel\b/i],
+  PowerPoint: [/\bpowerpoint\b/i],
+  "Microsoft Teams": [/\bteams\b/i],
+  Outlook: [/\boutlook\b/i],
+  SharePoint: [/\bsharepoint\b/i],
+  OneDrive: [/\bonedrive\b/i],
+  OneNote: [/\bonenote\b/i],
+  "Microsoft Viva": [/\bviva\b/i],
+  "Microsoft Purview": [/\bpurview\b/i],
+  Planner: [/\bplanner\b/i],
+  "Microsoft Copilot Studio": [/\bcopilot studio\b/i],
+  "Microsoft Edge": [/\bedge\b/i],
+  "Microsoft 365 admin center": [/\badmin center\b/i],
+  "Microsoft Entra": [/\bentra\b/i],
+  "Microsoft Clipchamp": [/\bclipchamp\b/i],
+  Forms: [/\bmicrosoft forms\b/i],
+  "Power Automate": [/\bpower automate\b/i],
+};
+
+function detectProducts(text) {
+  return Object.entries(PRODUCT_KEYWORDS)
+    .filter(([, patterns]) => patterns.some((re) => re.test(text)))
+    .map(([name]) => name);
+}
+
+// Security & compliance classifier, shared by roadmap items (title only) and
+// TechCommunity posts (title only) — deliberately title-only to avoid the
+// generic "security, compliance, and privacy" marketing boilerplate that
+// shows up in most Copilot post bodies, which would otherwise match nearly
+// everything.
+const SECURITY_RE =
+  /\b(security|compliance|purview|entra|defender|dlp|data loss prevention|sensitivity label|e-?discovery|insider risk|conditional access|information barrier|retention|audit log|encryption)\b/i;
+
+function isSecurityCompliance(title, products = []) {
+  return (
+    products.includes("Microsoft Purview") ||
+    products.includes("Microsoft Entra") ||
+    SECURITY_RE.test(title || "")
+  );
+}
 
 // Case-insensitive field getter — the API has mixed casing across fields.
 const pick = (obj, ...keys) => {
@@ -102,9 +153,11 @@ async function fetchRoadmap() {
       const created = pick(item, "created") || null;
       const modified = pick(item, "modified") || null;
       const gaDate = parseGADate(ga);
+      const title = pick(item, "title") || "Untitled";
+      const products = productTags(item);
       return {
         id: String(pick(item, "id") ?? ""),
-        title: pick(item, "title") || "Untitled",
+        title,
         description: (pick(item, "description") || "").replace(/<[^>]+>/g, "").trim(),
         status: normalizeStatus(pick(item, "status") || ""),
         created,
@@ -112,7 +165,11 @@ async function fetchRoadmap() {
         ga,
         // ISO form of the parsed availability date, for timeline placement.
         gaDate: gaDate ? gaDate.toISOString() : null,
-        products: productTags(item),
+        products,
+        securityCompliance: isSecurityCompliance(title, products),
+        // Filled in below once TechCommunity posts are fetched.
+        newsLink: null,
+        newsTitle: null,
         link: `https://www.microsoft.com/microsoft-365/roadmap?id=${pick(item, "id")}`,
       };
     })
@@ -131,35 +188,80 @@ async function fetchNews() {
     const res = await fetch(TECHCOMMUNITY_RSS, { headers: { Accept: "application/rss+xml,text/xml" } });
     if (!res.ok) throw new Error(`RSS ${res.status}`);
     const xml = await res.text();
-    const items = [...xml.matchAll(/<item[\s\S]*?<\/item>/g)].slice(0, 12).map((m) => {
-      const block = m[0];
-      const grab = (tag) => {
-        const r = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`).exec(block);
-        return r ? r[1].replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, "").trim() : "";
-      };
-      return { title: grab("title"), link: grab("link"), date: grab("pubDate") };
-    });
-    return items.filter((i) => i.title);
+
+    const cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - NEWS_MONTHS);
+
+    const items = [...xml.matchAll(/<item[\s\S]*?<\/item>/g)]
+      .map((m) => {
+        const block = m[0];
+        const grab = (tag) => {
+          const r = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`).exec(block);
+          return r ? r[1].replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, "").trim() : "";
+        };
+        const title = grab("title");
+        const description = grab("description");
+        const pubDate = grab("pubDate");
+        const date = pubDate ? new Date(pubDate) : null;
+        const products = detectProducts(`${title} ${description}`);
+        return {
+          title,
+          link: grab("link"),
+          date: date && !isNaN(date) ? date.toISOString() : null,
+          products,
+          securityCompliance: isSecurityCompliance(title, products),
+        };
+      })
+      // Latest N months only.
+      .filter((i) => i.title && i.date && new Date(i.date) >= cutoff)
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+    return items;
   } catch (e) {
     console.warn("TechCommunity feed unavailable, skipping news:", e.message);
     return [];
   }
 }
 
+// Cross-link roadmap items to TechCommunity posts that share a specific
+// product tag (product-tag match, not keyword/title matching — coarser but
+// more reliable). Broad monthly "What's New" roundup posts mention nearly
+// every product and would otherwise match almost every item, so only posts
+// focused on a handful of products are eligible to be linked. When multiple
+// eligible posts match, the most recent one wins.
+const MAX_PRODUCTS_FOR_LINKING = 3;
+
+function linkNewsToItems(items, news) {
+  const focused = news.filter((n) => n.products.length > 0 && n.products.length <= MAX_PRODUCTS_FOR_LINKING);
+  for (const item of items) {
+    if (!item.products.length) continue;
+    const matches = focused.filter((n) => n.products.some((p) => item.products.includes(p)));
+    if (!matches.length) continue;
+    const best = matches.reduce((a, b) => (new Date(b.date) > new Date(a.date) ? b : a));
+    item.newsLink = best.link;
+    item.newsTitle = best.title;
+  }
+}
+
 const [items, news] = await Promise.all([fetchRoadmap(), fetchNews()]);
+linkNewsToItems(items, news);
+
 const windowStart = new Date();
 windowStart.setMonth(windowStart.getMonth() - 6);
 const windowEnd = new Date();
 windowEnd.setMonth(windowEnd.getMonth() + 6);
+const newsWindowStart = new Date();
+newsWindowStart.setMonth(newsWindowStart.getMonth() - NEWS_MONTHS);
 const payload = {
   updated: new Date().toISOString(),
   window: { start: windowStart.toISOString(), end: windowEnd.toISOString() },
+  newsWindow: { start: newsWindowStart.toISOString(), end: new Date().toISOString() },
   counts: {
     total: items.length,
     inDevelopment: items.filter((i) => i.status === "In development").length,
     rollingOut: items.filter((i) => i.status === "Rolling out").length,
     launched: items.filter((i) => i.status === "Launched").length,
     cancelled: items.filter((i) => i.status === "Cancelled").length,
+    securityCompliance: items.filter((i) => i.securityCompliance).length,
   },
   items,
   news,

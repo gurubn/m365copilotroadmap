@@ -108,13 +108,35 @@
   }
   .ga { font-size: 11px; color: var(--accent); font-family: "JetBrains Mono", monospace; }
   .empty { color: var(--muted); font-size: 13px; padding: 20px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+  .status-pill {
+    font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px;
+    font-family: "JetBrains Mono", monospace; color: #0a0f1e;
+  }
+  .status-pill.dev { background: var(--dev); } .status-pill.roll { background: var(--roll); } .status-pill.live { background: var(--live); }
+  .news-link {
+    font-size: 11px; color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+    padding: 2px 7px; border-radius: 999px; font-family: "JetBrains Mono", monospace;
+  }
+  .news-link:hover { text-decoration: underline; }
 
   /* News rail */
-  .news h2 { font-family: "Space Grotesk", sans-serif; font-size: 14px; margin: 0 0 12px; }
+  .news h2 { font-family: "Space Grotesk", sans-serif; font-size: 14px; margin: 0 0 4px; }
+  .news .sub { color: var(--muted); font-size: 11px; margin: 0 0 12px; }
   .news-item { display: block; text-decoration: none; padding: 11px 0; border-bottom: 1px solid var(--line); }
   .news-item:hover .nt { color: var(--accent); }
   .nt { font-size: 13px; font-weight: 500; }
   .nd { font-size: 11px; color: var(--muted); font-family: "JetBrains Mono", monospace; margin-top: 3px; }
+  .np { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
+  /* Security & Compliance section */
+  .secco { padding: 30px 0 10px; }
+  .secco-head {
+    display: flex; align-items: center; gap: 10px; font-family: "Space Grotesk", sans-serif;
+    font-weight: 600; font-size: 16px; margin-bottom: 4px;
+  }
+  .secco-head .icon { color: var(--accent); }
+  .secco-sub { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
+  .secco-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 
   footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; padding: 18px 0 40px; }
   footer a { color: var(--accent); }
@@ -146,8 +168,18 @@
     <section><div class="col-head"><span class="dot dev"></span>In development <span class="count" id="c-dev"></span></div><div id="col-dev"></div></section>
     <section><div class="col-head"><span class="dot roll"></span>Rolling out <span class="count" id="c-roll"></span></div><div id="col-roll"></div></section>
     <section><div class="col-head"><span class="dot live"></span>Launched <span class="count" id="c-live"></span></div><div id="col-live"></div></section>
-    <aside class="news"><h2>From Tech Community</h2><div id="news"></div></aside>
+    <aside class="news">
+      <h2>From Tech Community</h2>
+      <p class="sub" id="news-sub">Last 3 months</p>
+      <div id="news"></div>
+    </aside>
   </div>
+
+  <section class="secco">
+    <div class="secco-head"><span class="icon">🔒</span> Security &amp; Compliance <span class="count" id="c-secco"></span></div>
+    <p class="secco-sub">Purview, Entra, DLP, eDiscovery, and related Copilot roadmap items — all statuses.</p>
+    <div class="secco-grid" id="secco-grid"></div>
+  </section>
 </main>
 
 <footer class="wrap">
@@ -173,7 +205,7 @@ function render() {
   });
   items.sort((a,b) => {
     if (sort === "title") return a.title.localeCompare(b.title);
-    if (sort === "ga") return new Date(a.ga||"2999") - new Date(b.ga||"2999");
+    if (sort === "ga") return new Date(a.gaDate||"2999") - new Date(b.gaDate||"2999");
     return new Date(b.modified||0) - new Date(a.modified||0);
   });
 
@@ -181,19 +213,33 @@ function render() {
     const col = document.getElementById("col-" + key);
     const list = items.filter(i => STATUS[i.status] === key);
     document.getElementById("c-" + key).textContent = list.length;
-    col.innerHTML = list.length ? list.map(card).join("") :
+    col.innerHTML = list.length ? list.map(i => card(i)).join("") :
       '<div class="empty">Nothing matches here.</div>';
   }
+
+  const secco = items.filter(i => i.securityCompliance);
+  document.getElementById("c-secco").textContent = secco.length;
+  document.getElementById("secco-grid").innerHTML = secco.length
+    ? secco.map(i => card(i, { showStatus: true })).join("")
+    : '<div class="empty">No Security &amp; Compliance items match here.</div>';
 }
 
-function card(i) {
+const STATUS_LABEL = { dev: "In development", roll: "Rolling out", live: "Launched" };
+
+function card(i, opts = {}) {
   const key = STATUS[i.status] || "dev";
   const tags = (i.products||[]).slice(0,3).map(p => `<span class="tag">${esc(p)}</span>`).join("");
-  const ga = i.ga ? `<span class="ga">GA ${fmt(i.ga)}</span>` : "";
+  // i.ga is free text from Microsoft, e.g. "August CY2026" or "Q1 CY2026" —
+  // not a parseable date, so it's shown verbatim rather than run through fmt().
+  const ga = i.ga ? `<span class="ga">GA ${esc(i.ga)}</span>` : "";
+  const statusPill = opts.showStatus ? `<span class="status-pill ${key}">${STATUS_LABEL[key]}</span>` : "";
+  const newsLink = i.newsLink
+    ? `<a class="news-link" href="${esc(i.newsLink)}" target="_blank" rel="noopener" title="${esc(i.newsTitle||"")}">📰 Tech Community</a>`
+    : "";
   return `<article class="card ${key}">
     <h3><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
     <p>${esc(i.description).slice(0,220)}${i.description.length>220?"…":""}</p>
-    <div class="meta">${tags}${ga}</div>
+    <div class="meta">${statusPill}${tags}${ga}${newsLink}</div>
   </article>`;
 }
 
@@ -221,10 +267,12 @@ async function load() {
   const sel = document.getElementById("product");
   products.forEach(p => { const o = document.createElement("option"); o.value = o.textContent = p; sel.appendChild(o); });
 
-  document.getElementById("news").innerHTML = (DATA.news||[]).map(n =>
-    `<a class="news-item" href="${esc(n.link)}" target="_blank" rel="noopener">
-       <div class="nt">${esc(n.title)}</div><div class="nd">${esc(n.date)}</div></a>`).join("")
-    || '<div class="empty">No posts loaded.</div>';
+  document.getElementById("news").innerHTML = (DATA.news||[]).map(n => {
+    const chips = (n.products||[]).slice(0,4).map(p => `<span class="tag">${esc(p)}</span>`).join("");
+    return `<a class="news-item" href="${esc(n.link)}" target="_blank" rel="noopener">
+       <div class="nt">${esc(n.title)}</div><div class="nd">${fmt(n.date)}</div>
+       ${chips ? `<div class="np">${chips}</div>` : ""}</a>`;
+  }).join("") || '<div class="empty">No posts loaded.</div>';
 
   ["q","product","sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
   render();
