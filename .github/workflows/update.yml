@@ -1,0 +1,30 @@
+name: Refresh Copilot roadmap
+
+on:
+  schedule:
+    # Every Saturday at 08:00 UTC. GitHub Actions cron is always UTC.
+    - cron: "0 8 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: node scripts/fetch.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/roadmap.json
+          git diff --staged --quiet || git commit -m "Refresh Copilot roadmap data"
+          git push
