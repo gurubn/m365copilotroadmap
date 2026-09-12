@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-05T11:31:28.841Z",
+  "updated": "2026-09-12T11:52:23.274Z",
   "window": {
-    "start": "2026-03-05T11:31:28.841Z",
-    "end": "2027-03-05T11:31:28.841Z"
+    "start": "2026-03-12T11:52:23.274Z",
+    "end": "2027-03-12T11:52:23.274Z"
   },
   "newsWindow": {
-    "start": "2026-06-05T11:31:28.841Z",
-    "end": "2026-09-05T11:31:28.841Z"
+    "start": "2026-06-12T11:52:23.274Z",
+    "end": "2026-09-12T11:52:23.274Z"
   },
   "counts": {
-    "total": 322,
-    "inDevelopment": 182,
-    "rollingOut": 35,
-    "launched": 100,
+    "total": 328,
+    "inDevelopment": 180,
+    "rollingOut": 38,
+    "launched": 105,
     "cancelled": 5,
     "securityCompliance": 31
   },
@@ -102,8 +102,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558543"
     },
     {
@@ -120,8 +120,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558540"
     },
     {
@@ -138,8 +138,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558443"
     },
     {
@@ -225,8 +225,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557277"
     },
     {
@@ -243,8 +243,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557276"
     },
     {
@@ -260,8 +260,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557548"
     },
     {
@@ -278,8 +278,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557175"
     },
     {
@@ -335,8 +335,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557255"
     },
     {
@@ -371,8 +371,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555898"
     },
     {
@@ -389,8 +389,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555896"
     },
     {
@@ -407,8 +407,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555893"
     },
     {
@@ -425,8 +425,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555890"
     },
     {
@@ -546,8 +546,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=516575"
     },
     {
@@ -564,8 +564,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=523206"
     },
     {
@@ -599,8 +599,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=516039"
     },
     {
@@ -617,8 +617,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=516038"
     },
     {
@@ -635,8 +635,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=516037"
     },
     {
@@ -686,8 +686,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=502519"
     },
     {
@@ -755,8 +755,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=496363"
     },
     {
@@ -807,8 +807,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561206"
     },
     {
@@ -825,8 +825,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560694"
     },
     {
@@ -843,8 +843,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560537"
     },
     {
@@ -861,8 +861,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560536"
     },
     {
@@ -871,15 +871,15 @@
       "description": "Microsoft Purview Endpoint data loss prevention is expanding coverage to Copilot + PCs initially to support Recall snapshots and determining whether policies exist to prevent capture of windows containing restricted sensitivity labels and Sensitive information types (SITs). Purview admins will author Endpoint DLP custom policies to integrate with Windows Copilot + PC Recall setup by Intune admins for Copilot + PC devices exclusively.",
       "status": "Rolling out",
       "created": "2026-04-14T23:00:25",
-      "modified": "2026-06-03T23:00:57",
+      "modified": "2026-09-11T22:10:10",
       "ga": "May CY2026",
       "gaDate": "2026-05-01T00:00:00.000Z",
       "products": [
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560396"
     },
     {
@@ -897,8 +897,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560341"
     },
     {
@@ -914,8 +914,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560340"
     },
     {
@@ -931,8 +931,8 @@
         "Excel"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560338"
     },
     {
@@ -948,8 +948,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559991"
     },
     {
@@ -966,8 +966,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559479"
     },
     {
@@ -984,8 +984,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559478"
     },
     {
@@ -1020,8 +1020,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559606"
     },
     {
@@ -1056,8 +1056,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559418"
     },
     {
@@ -1091,8 +1091,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559477"
     },
     {
@@ -1203,8 +1203,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558440"
     },
     {
@@ -1221,17 +1221,17 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=552595"
     },
     {
       "id": "557560",
       "title": "Microsoft Copilot (Microsoft 365): AI Generated video drafts include text animations and new layout options",
       "description": "Users will find updated layouts and text animations on video projects generated with Copilot.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-03-06T00:00:43",
-      "modified": "2026-03-06T00:00:43",
+      "modified": "2026-09-08T22:57:21",
       "ga": "May CY2026",
       "gaDate": "2026-05-01T00:00:00.000Z",
       "products": [
@@ -1274,8 +1274,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557170"
     },
     {
@@ -1292,8 +1292,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557173"
     },
     {
@@ -1310,8 +1310,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557180"
     },
     {
@@ -1397,8 +1397,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=532728"
     },
     {
@@ -1539,8 +1539,8 @@
         "SharePoint"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=481825"
     },
     {
@@ -1648,23 +1648,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564606"
     },
     {
-      "id": "561204",
-      "title": "Planner: My Tasks redesign",
-      "description": "A redesigned My Tasks experience that brings your tasks into one place, making it easier to capture work, prioritize what matters, and stay focused. Copilot helps surface your top priorities.",
-      "status": "In development",
-      "created": "2026-05-27T23:15:50",
-      "modified": "2026-05-27T23:15:50",
-      "ga": "June CY2026",
-      "gaDate": "2026-06-01T00:00:00.000Z",
-      "products": [
-        "Planner"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561204"
-    },
-    {
       "id": "559601",
       "title": "Microsoft Copilot (Microsoft 365): Chat History Filtering by Copilot Experience",
       "description": "Users will now see chat history scoped to their current Copilot Chat endpoint, with the option to see ‘All chats’ view. We have chosen not to move forward with this feature. We apologize for the inconvenience.",
@@ -1695,8 +1678,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562221"
     },
     {
@@ -1746,8 +1729,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561892"
     },
     {
@@ -1780,8 +1763,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561492"
     },
     {
@@ -1990,8 +1973,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559992"
     },
     {
@@ -2079,8 +2062,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555897"
     },
     {
@@ -2097,8 +2080,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555895"
     },
     {
@@ -2114,8 +2097,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=548671"
     },
     {
@@ -2132,8 +2115,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557256"
     },
     {
@@ -2150,8 +2133,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555880"
     },
     {
@@ -2168,8 +2151,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555879"
     },
     {
@@ -2186,8 +2169,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555878"
     },
     {
@@ -2203,8 +2186,8 @@
         "Microsoft Teams"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=557178"
     },
     {
@@ -2221,8 +2204,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555894"
     },
     {
@@ -2238,17 +2221,17 @@
         "Microsoft Teams"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555857"
     },
     {
       "id": "550513",
-      "title": "Microsoft Clipchamp: Improved audio for Copilot AI-generated video projects",
+      "title": "Microsoft Clipchamp: Upgraded music selection for Copilot AI Videos",
       "description": "With a Microsoft365 Copilot license, Copilot AI-generated video projects have improved audio with realistic AI voiceover, professional sound effects, and enhanced audio mixing.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-02-06T23:00:02",
-      "modified": "2026-02-06T23:00:02",
+      "modified": "2026-09-08T22:57:21",
       "ga": "June CY2026",
       "gaDate": "2026-06-01T00:00:00.000Z",
       "products": [
@@ -2310,8 +2293,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=512428"
     },
     {
@@ -2363,8 +2346,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=537269"
     },
     {
@@ -2506,8 +2489,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=489826"
     },
     {
@@ -2523,8 +2506,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=493752"
     },
     {
@@ -2541,8 +2524,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=489825"
     },
     {
@@ -2562,8 +2545,8 @@
         "Word"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=486695"
     },
     {
@@ -2638,9 +2621,9 @@
       "id": "567005",
       "title": "Microsoft Copilot (Microsoft 365): Insights: Copilot Analytics - Cowork adoption and impact",
       "description": "Deeper insights into Cowork adoption and impact accessible from the new AI Cost dashboard and Copilot dashboard. Includes export capability. All metrics can be queried by analysts with the new AI cost query in advanced insights.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-06-30T22:57:58",
-      "modified": "2026-06-30T22:57:58",
+      "modified": "2026-09-11T22:10:10",
       "ga": "July CY2026",
       "gaDate": "2026-07-01T00:00:00.000Z",
       "products": [
@@ -2665,8 +2648,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565870"
     },
     {
@@ -2734,8 +2717,8 @@
         "Excel"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560531"
     },
     {
@@ -2759,17 +2742,17 @@
       "id": "564605",
       "title": "Outlook: Co-Authoring Highlight and Rewrite",
       "description": "Users can now collaborate with Copilot to make improvements to email drafts. Select a section of the draft and ask Copilot to make changes, like changing its length, tone, or structure.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-05-26T22:45:59",
-      "modified": "2026-07-08T23:11:07",
+      "modified": "2026-09-11T22:10:10",
       "ga": "July CY2026",
       "gaDate": "2026-07-01T00:00:00.000Z",
       "products": [
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564605"
     },
     {
@@ -2802,8 +2785,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561491"
     },
     {
@@ -2819,8 +2802,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561036"
     },
     {
@@ -2837,8 +2820,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559989"
     },
     {
@@ -2854,8 +2837,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559389"
     },
     {
@@ -2889,8 +2872,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555882"
     },
     {
@@ -2907,8 +2890,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=555881"
     },
     {
@@ -2959,8 +2942,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=497999"
     },
     {
@@ -2994,8 +2977,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=494809"
     },
     {
@@ -3011,26 +2994,9 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568368"
-    },
-    {
-      "id": "567008",
-      "title": "Microsoft Copilot (Microsoft 365): New Rich Answer Cards",
-      "description": "Surface new model-driven, dynamically placed Answer Cards across top 7 segments: weather, sports, finance, images, video, places and news for Entra & MSA users across all surfaces.",
-      "status": "In development",
-      "created": "2026-07-28T22:43:45",
-      "modified": "2026-07-28T22:43:45",
-      "ga": "August CY2026",
-      "gaDate": "2026-08-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
       "newsLink": null,
       "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567008"
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568368"
     },
     {
       "id": "567891",
@@ -3062,8 +3028,8 @@
         "Microsoft Teams"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567883"
     },
     {
@@ -3104,9 +3070,9 @@
       "id": "562353",
       "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
       "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-07-16T23:08:19",
-      "modified": "2026-07-16T23:08:19",
+      "modified": "2026-09-11T22:10:10",
       "ga": "August CY2026",
       "gaDate": "2026-08-01T00:00:00.000Z",
       "products": [
@@ -3131,8 +3097,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567458"
     },
     {
@@ -3167,8 +3133,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567302"
     },
     {
@@ -3202,17 +3168,17 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566997"
     },
     {
       "id": "566870",
       "title": "OneNote: Suggested Artifact Creation in Copilot Notebooks",
       "description": "Copilot Notebooks in OneNote now suggests artifacts to create, such as Word documents, Excel workbooks, and PowerPoint presentations, based on Microsoft 365 knowledge and the content in your notebook. Select the suggestion and Copilot will generate the artifact.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-06-30T22:57:58",
-      "modified": "2026-06-30T22:57:58",
+      "modified": "2026-09-11T22:10:10",
       "ga": "August CY2026",
       "gaDate": "2026-08-01T00:00:00.000Z",
       "products": [
@@ -3288,8 +3254,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564609"
     },
     {
@@ -3438,9 +3404,9 @@
       "id": "553224",
       "title": "Microsoft Viva: Copilot Enhanced Topic Assignment",
       "description": "We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics. Updated August 18, 2026: Rollout timing of this feature is now planned for end of August through early September. We apologize for any inconvenience.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-02-18T00:00:38",
-      "modified": "2026-08-19T22:58:06",
+      "modified": "2026-09-10T23:01:27",
       "ga": "August CY2026",
       "gaDate": "2026-08-01T00:00:00.000Z",
       "products": [
@@ -3468,23 +3434,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=498640"
-    },
-    {
-      "id": "522616",
-      "title": "Microsoft Copilot (Microsoft 365): Ask Copilot about highlighted response content",
-      "description": "Highlight a sentence, paragraph, or table from the response and ask Copilot to work only on that selection. Get focused explanations, concise summaries, quick translations, or next steps for the exact passage you’re reviewing—no more over broad answers. Your selection is previewed in the prompt so you can edit before you send. It’s a faster, more controlled way to get help right where you’re working.",
-      "status": "In development",
-      "created": "2025-10-31T22:00:11",
-      "modified": "2026-08-04T22:45:42",
-      "ga": "August CY2026",
-      "gaDate": "2026-08-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=522616"
     },
     {
       "id": "505442",
@@ -3584,8 +3533,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570435"
     },
     {
@@ -3601,8 +3550,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570434"
     },
     {
@@ -3652,8 +3601,8 @@
         "Excel"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569424"
     },
     {
@@ -3686,8 +3635,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569930"
     },
     {
@@ -3721,8 +3670,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569612"
     },
     {
@@ -3772,8 +3721,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569607"
     },
     {
@@ -3807,8 +3756,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569425"
     },
     {
@@ -3875,8 +3824,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568929"
     },
     {
@@ -3893,8 +3842,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569017"
     },
     {
@@ -3910,8 +3859,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568930"
     },
     {
@@ -3928,8 +3877,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568933"
     },
     {
@@ -3945,8 +3894,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568762"
     },
     {
@@ -4002,6 +3951,23 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567886"
     },
     {
+      "id": "567008",
+      "title": "Microsoft Copilot (Microsoft 365): New Rich Answer Cards",
+      "description": "Surface new model-driven, dynamically placed Answer Cards across top 7 segments: weather, sports, finance, images, video, places and news for Entra &amp; MSA users across all surfaces.",
+      "status": "Rolling out",
+      "created": "2026-07-28T22:43:45",
+      "modified": "2026-09-10T23:01:27",
+      "ga": "September CY2026",
+      "gaDate": "2026-09-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567008"
+    },
+    {
       "id": "515145",
       "title": "Microsoft Copilot (Microsoft 365): Workforce Insights Agent",
       "description": "Workforce Insights (WFI) Agent in Microsoft 365 Copilot is an agent designed to help leaders, managers, and their delegates quickly understand their organization by turning complex workforce data into clear, actionable insights. With WFI Agent, leaders can quickly explore their organization’s structure, team composition, skills inventories, and flexible work patterns to move from insight to action in a single, unified experience directly in Copilot or Teams.",
@@ -4032,17 +3998,17 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567007"
     },
     {
       "id": "567895",
       "title": "OneNote: Multimodal capture in Copilot Notebooks (Android)",
       "description": "Multimodal capture enables users to transcribe audio, take images, and type notes in a single session. Copilot then creates a structured Copilot Page with insights and user-captured content, saved to a user-selected Copilot Notebook. Designed for capturing offline work moments—including in-person conversations, whiteboard sessions, and personal notes. This capability is already generally available on OneNote for iPhone and iPad.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-07-20T22:37:15",
-      "modified": "2026-07-20T22:37:15",
+      "modified": "2026-09-09T22:36:54",
       "ga": "September CY2026",
       "gaDate": "2026-09-01T00:00:00.000Z",
       "products": [
@@ -4057,10 +4023,10 @@
     {
       "id": "567671",
       "title": "Planner: Planner Agent chat in Basic Plans",
-      "description": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management.",
-      "status": "In development",
+      "description": "Introducing built-in Planner Agent chat with natural language Q&amp;A, smart task discovery, and in-plan task management.",
+      "status": "Rolling out",
       "created": "2026-07-14T22:41:38",
-      "modified": "2026-09-01T23:00:02",
+      "modified": "2026-09-09T22:36:54",
       "ga": "September CY2026",
       "gaDate": "2026-09-01T00:00:00.000Z",
       "products": [
@@ -4138,8 +4104,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566859"
     },
     {
@@ -4156,8 +4122,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566998"
     },
     {
@@ -4174,8 +4140,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566873"
     },
     {
@@ -4210,8 +4176,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566702"
     },
     {
@@ -4228,8 +4194,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566701"
     },
     {
@@ -4298,8 +4264,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562345"
     },
     {
@@ -4334,8 +4300,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562222"
     },
     {
@@ -4352,8 +4318,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561322"
     },
     {
@@ -4387,8 +4353,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561209"
     },
     {
@@ -4464,10 +4430,10 @@
     {
       "id": "559613",
       "title": "Microsoft Copilot (Microsoft 365): Copilot Chat can now better match search results from Scanned PDFs",
-      "description": "Copilot Chat can now better match search results from Scanned PDFs on Copilot users' files they are working on — content that was previously difficult to search and find.",
+      "description": "Copilot Chat can now better match search results from Scanned PDFs on Copilot users' files they are working on — content that was previously difficult to search and find.\nThis feature will work for new/updated user's working files on a go-forward basis.",
       "status": "In development",
       "created": "2026-04-13T23:15:13",
-      "modified": "2026-09-02T22:56:59",
+      "modified": "2026-09-11T22:10:10",
       "ga": "September CY2026",
       "gaDate": "2026-09-01T00:00:00.000Z",
       "products": [
@@ -4492,27 +4458,9 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=554934"
-    },
-    {
-      "id": "547749",
-      "title": "Microsoft Viva: Copilot Analytics - Export metrics in the Copilot Dashboard at Day Level",
-      "description": "This feature enables users to export fresher row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis at day level. #copilotcontrolsystem",
-      "status": "In development",
-      "created": "2026-01-14T00:00:47",
-      "modified": "2026-05-19T22:45:25",
-      "ga": "September CY2026",
-      "gaDate": "2026-09-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
       "newsLink": null,
       "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=547749"
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=554934"
     },
     {
       "id": "523223",
@@ -4530,24 +4478,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=523223"
-    },
-    {
-      "id": "542181",
-      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
-      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-      "status": "In development",
-      "created": "2025-12-17T00:15:13",
-      "modified": "2026-07-23T23:27:16",
-      "ga": "September CY2026",
-      "gaDate": "2026-09-01T00:00:00.000Z",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "newsTitle": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=542181"
     },
     {
       "id": "516577",
@@ -4568,6 +4498,23 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=516577"
     },
     {
+      "id": "522616",
+      "title": "Microsoft Copilot (Microsoft 365): Ask Copilot about highlighted response content",
+      "description": "Highlight a sentence, paragraph, or table from the response and ask Copilot to work only on that selection. Get focused explanations, concise summaries, quick translations, or next steps for the exact passage you’re reviewing—no more over broad answers. Your selection is previewed in the prompt so you can edit before you send. It’s a faster, more controlled way to get help right where you’re working.",
+      "status": "In development",
+      "created": "2025-10-31T22:00:11",
+      "modified": "2026-09-09T22:36:54",
+      "ga": "September CY2026",
+      "gaDate": "2026-09-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=522616"
+    },
+    {
       "id": "519571",
       "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
       "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
@@ -4581,8 +4528,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=519571"
     },
     {
@@ -4633,8 +4580,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=503553"
     },
     {
@@ -4719,8 +4666,8 @@
         "Microsoft Teams"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=490564"
     },
     {
@@ -4740,23 +4687,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=490738"
-    },
-    {
-      "id": "472031",
-      "title": "Data Loss Prevention- DLP Policy Change Insights with Security Copilot",
-      "description": "Copilot for Security in DLP can summarize DLP policies. This enhancement enables DLP admins to gain insights on coverage of policies viz. location, classifiers and notifications, and more. \n \nDLP admins can get these insights on all the policies or on few selected policies. They will be able to use prompts to gain deeper level view of how a policy is configured for their digital landscape. This helps them align their data posture on a regular basis and make corrections to policy posture as needed. #copilotcontrolsystem",
-      "status": "In development",
-      "created": "2024-12-20T00:00:02",
-      "modified": "2026-05-07T23:15:02",
-      "ga": "September CY2026",
-      "gaDate": "2026-09-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=472031"
     },
     {
       "id": "422324",
@@ -4795,6 +4725,127 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=422323"
     },
     {
+      "id": "570277",
+      "title": "Word: Copilot edit mode is available to users in Office 365 GCC",
+      "description": "Edit with Copilot in Word is now available to users in Office 365 GCC, enabling government customers to work with Copilot as a co-creator directly in your document to create, refine, and transform documents more efficiently.",
+      "status": "In development",
+      "created": "2026-09-11T22:10:10",
+      "modified": "2026-09-11T22:10:10",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Word",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570277"
+    },
+    {
+      "id": "570469",
+      "title": "Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file",
+      "description": "Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user's working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find.",
+      "status": "In development",
+      "created": "2026-09-10T23:01:27",
+      "modified": "2026-09-10T23:01:27",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570469"
+    },
+    {
+      "id": "570647",
+      "title": "SharePoint: Changes to the FAQ web part authoring experience",
+      "description": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration.",
+      "status": "In development",
+      "created": "2026-09-09T22:36:54",
+      "modified": "2026-09-09T22:36:54",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "SharePoint"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570647"
+    },
+    {
+      "id": "570440",
+      "title": "Outlook: Inline chat for email drafting",
+      "description": "Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar.",
+      "status": "In development",
+      "created": "2026-09-09T22:36:54",
+      "modified": "2026-09-09T22:36:54",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Outlook"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570440"
+    },
+    {
+      "id": "570847",
+      "title": "Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard",
+      "description": "Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value.\nThis update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization.",
+      "status": "In development",
+      "created": "2026-09-08T22:57:21",
+      "modified": "2026-09-08T22:57:21",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570847"
+    },
+    {
+      "id": "570845",
+      "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
+      "description": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search.",
+      "status": "In development",
+      "created": "2026-09-08T22:57:21",
+      "modified": "2026-09-08T22:57:21",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "securityCompliance": true,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570845"
+    },
+    {
+      "id": "570427",
+      "title": "Microsoft Teams: Meeting Shared Files",
+      "description": "The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality.",
+      "status": "In development",
+      "created": "2026-09-08T22:57:21",
+      "modified": "2026-09-09T22:36:54",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570427"
+    },
+    {
       "id": "569474",
       "title": "Microsoft Copilot Studio: Introducing an App- and Intent-First Agent Creation Experience",
       "description": "Copilot Studio is evolving to an app-first agent creation experience. Makers start with the application their agent will work with and configure the capabilities it needs. This update brings tools and knowledge into a more unified experience, simplifying how agents are created and configured.",
@@ -4807,8 +4858,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569474"
     },
     {
@@ -4825,8 +4876,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569214"
     },
     {
@@ -4842,8 +4893,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569475"
     },
     {
@@ -4859,8 +4910,8 @@
         "Microsoft 365 admin center"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568937"
     },
     {
@@ -4876,8 +4927,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569364"
     },
     {
@@ -4966,8 +5017,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569023"
     },
     {
@@ -4983,8 +5034,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567890"
     },
     {
@@ -5019,8 +5070,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562220"
     },
     {
@@ -5036,8 +5087,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561208"
     },
     {
@@ -5073,8 +5124,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560700"
     },
     {
@@ -5090,8 +5141,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561032"
     },
     {
@@ -5108,8 +5159,8 @@
         "Microsoft Teams"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560318"
     },
     {
@@ -5126,8 +5177,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558933"
     },
     {
@@ -5143,8 +5194,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559617"
     },
     {
@@ -5160,8 +5211,8 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559106"
     },
     {
@@ -5178,8 +5229,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558286"
     },
     {
@@ -5218,6 +5269,24 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=545896"
     },
     {
+      "id": "542181",
+      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
+      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
+      "status": "In development",
+      "created": "2025-12-17T00:15:13",
+      "modified": "2026-09-11T22:10:10",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Excel",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=542181"
+    },
+    {
       "id": "508524",
       "title": "Outlook: User-initiated Copilot insights in classic Outlook ",
       "description": "Users can manually select text and ask Copilot to help provide relevant information.",
@@ -5230,8 +5299,8 @@
         "Outlook"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=508524"
     },
     {
@@ -5264,8 +5333,8 @@
         "Microsoft Teams"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=515465"
     },
     {
@@ -5285,6 +5354,25 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=506749"
+    },
+    {
+      "id": "487852",
+      "title": "Microsoft Copilot (Microsoft 365): Realtime voice interactions in Word and PowerPoint",
+      "description": "Use your voice to talk with Copilot, interact in-real time, and understand the content within your document or presentation. Updated September 9, 2026: We will be re-releasing this feature with updates in October. Thank you for your patience.",
+      "status": "In development",
+      "created": "2025-05-13T23:00:09",
+      "modified": "2026-09-10T23:01:27",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "PowerPoint",
+        "Word"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=487852"
     },
     {
       "id": "489822",
@@ -5317,8 +5405,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570433"
     },
     {
@@ -5352,8 +5440,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566999"
     },
     {
@@ -5388,8 +5476,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558341"
     },
     {
@@ -5408,6 +5496,24 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=551195"
+    },
+    {
+      "id": "547749",
+      "title": "Microsoft Viva: Copilot Analytics - Export metrics in the Copilot Dashboard at Day Level",
+      "description": "This feature enables users to export fresher row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis at day level. #copilotcontrolsystem",
+      "status": "In development",
+      "created": "2026-01-14T00:00:47",
+      "modified": "2026-09-08T22:57:21",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=547749"
     },
     {
       "id": "569215",
@@ -5549,24 +5655,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=501451"
     },
     {
-      "id": "472030",
-      "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Retention based on Last Accessed for files in OneDrive and SharePoint",
-      "description": "This creates the ability to apply Retention to each SharePoint or OneDrive item based on when it was last accessed by a user. #copilotcontrolsystem",
-      "status": "In development",
-      "created": "2024-12-11T00:15:40",
-      "modified": "2026-08-18T23:05:00",
-      "ga": "December CY2026",
-      "gaDate": "2026-12-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Purview"
-      ],
-      "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=472030"
-    },
-    {
       "id": "567894",
       "title": "Microsoft Copilot Studio: Share Autonomous Agents to End Users (Run-Only)",
       "description": "Previously, autonomous agents could only be used and managed by makers, limiting their reach to the people who needed them. Run-only sharing enables makers to securely share autonomous agents with end users, allowing users to benefit from agent-driven automation without requiring edit permissions or ownership. This extends autonomous agent capabilities to a broader audience while maintaining governance and control.",
@@ -5579,8 +5667,8 @@
         "Microsoft Copilot Studio"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "newsTitle": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567894"
     },
     {
@@ -5596,9 +5684,27 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561552"
+    },
+    {
+      "id": "472030",
+      "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Retention based on Last Accessed for files in OneDrive and SharePoint",
+      "description": "This creates the ability to apply Retention to each SharePoint or OneDrive item based on when it was last accessed by a user. #copilotcontrolsystem",
+      "status": "In development",
+      "created": "2024-12-11T00:15:40",
+      "modified": "2026-09-10T23:01:27",
+      "ga": "January CY2027",
+      "gaDate": "2027-01-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Purview"
+      ],
+      "securityCompliance": true,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=472030"
     },
     {
       "id": "501201",
@@ -5614,8 +5720,8 @@
         "Microsoft Copilot (Microsoft 365)"
       ],
       "securityCompliance": false,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "newsTitle": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=501201"
     },
     {
@@ -5665,251 +5771,10 @@
         "Microsoft Purview"
       ],
       "securityCompliance": true,
-      "newsLink": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "newsTitle": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "newsLink": null,
+      "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558288"
     }
   ],
-  "news": [
-    {
-      "title": "What’s New in Microsoft Copilot | August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-copilot-august-2026/ba-p/4551960",
-      "date": "2026-09-03T16:04:01.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook",
-        "SharePoint",
-        "OneDrive",
-        "OneNote",
-        "Planner",
-        "Microsoft Entra"
-      ],
-      "securityCompliance": true
-    },
-    {
-      "title": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "date": "2026-09-02T15:16:45.000Z",
-      "products": [
-        "Microsoft Copilot Studio",
-        "Microsoft 365 admin center"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
-      "date": "2026-08-13T16:00:00.000Z",
-      "products": [],
-      "securityCompliance": false
-    },
-    {
-      "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
-      "date": "2026-08-12T16:00:00.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648",
-      "date": "2026-08-07T18:54:00.000Z",
-      "products": [],
-      "securityCompliance": false
-    },
-    {
-      "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
-      "date": "2026-08-05T17:00:00.000Z",
-      "products": [],
-      "securityCompliance": false
-    },
-    {
-      "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151",
-      "date": "2026-08-04T16:15:19.000Z",
-      "products": [],
-      "securityCompliance": false
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-july-2026/ba-p/4538332",
-      "date": "2026-07-31T15:30:00.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook",
-        "SharePoint",
-        "OneDrive",
-        "Microsoft Viva",
-        "Microsoft Purview",
-        "Microsoft Copilot Studio",
-        "Microsoft Edge",
-        "Microsoft 365 admin center",
-        "Power Automate"
-      ],
-      "securityCompliance": true
-    },
-    {
-      "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524",
-      "date": "2026-07-24T21:11:08.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Copilot Studio"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155",
-      "date": "2026-07-23T18:57:12.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Microsoft Copilot Studio",
-        "Microsoft Entra"
-      ],
-      "securityCompliance": true
-    },
-    {
-      "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935",
-      "date": "2026-07-16T16:36:52.000Z",
-      "products": [],
-      "securityCompliance": false
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-june-2026/ba-p/4529572",
-      "date": "2026-07-14T17:07:56.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook",
-        "SharePoint",
-        "OneDrive",
-        "Microsoft Purview",
-        "Planner",
-        "Microsoft Copilot Studio",
-        "Microsoft Edge",
-        "Microsoft 365 admin center",
-        "Microsoft Entra"
-      ],
-      "securityCompliance": true
-    },
-    {
-      "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "date": "2026-07-10T15:04:24.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188",
-      "date": "2026-07-02T15:55:25.000Z",
-      "products": [
-        "PowerPoint"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "date": "2026-07-02T15:00:00.000Z",
-      "products": [
-        "Microsoft Teams",
-        "Outlook"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
-      "date": "2026-06-30T15:30:00.000Z",
-      "products": [
-        "Microsoft Teams",
-        "Outlook",
-        "Microsoft Purview"
-      ],
-      "securityCompliance": true
-    },
-    {
-      "title": "Learning Agent now generally available — personalized AI upskilling for every employee",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/learning-agent-now-generally-available-personalized-ai/ba-p/4524571",
-      "date": "2026-06-25T16:02:52.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "SharePoint",
-        "Microsoft Viva"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
-      "date": "2026-06-11T20:58:32.000Z",
-      "products": [
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "What’s New in Notebooks | June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
-      "date": "2026-06-11T15:03:45.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook",
-        "OneNote"
-      ],
-      "securityCompliance": false
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
-      "date": "2026-06-08T21:52:59.000Z",
-      "products": [
-        "Word",
-        "Excel",
-        "PowerPoint",
-        "Microsoft Teams",
-        "Outlook",
-        "SharePoint",
-        "OneNote",
-        "Microsoft Copilot Studio"
-      ],
-      "securityCompliance": false
-    }
-  ]
+  "news": []
 }
