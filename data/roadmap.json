@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-31T14:09:44.512Z",
+  "updated": "2026-11-07T14:34:51.794Z",
   "window": {
-    "start": "2026-05-01T14:09:44.512Z",
-    "end": "2027-05-01T14:09:44.512Z"
+    "start": "2026-05-07T14:34:51.794Z",
+    "end": "2027-05-07T14:34:51.794Z"
   },
   "newsWindow": {
-    "start": "2026-07-31T14:09:44.512Z",
-    "end": "2026-10-31T14:09:44.512Z"
+    "start": "2026-08-07T14:34:51.794Z",
+    "end": "2026-11-07T14:34:51.794Z"
   },
   "counts": {
-    "total": 380,
-    "inDevelopment": 208,
-    "rollingOut": 40,
-    "launched": 129,
+    "total": 387,
+    "inDevelopment": 197,
+    "rollingOut": 39,
+    "launched": 148,
     "cancelled": 3,
-    "securityCompliance": 29
+    "securityCompliance": 28
   },
   "items": [
     {
@@ -143,10 +143,10 @@
     {
       "id": "576831",
       "title": "Dynamics 365 Contact Center: Workforce engagement management - Analyze adherence history to optimize workforce planning",
-      "description": "The Adherence History Report provides a complete view of customer service representatives’ historical adherence to scheduled tasks and activities. It helps supervisors analyze patterns, identify gaps, and improve workforce efficiency.\nKey capabilities\nTrend chart: Visualize adherence patterns for individual service representatives or the entire team over time.\nMetrics dashboard: Track adherence percentage, total scheduled time, and time spent out of adherence.\nActivity summary view: Access detailed activity records for each service representative, including precise durations for granular analysis.\nYou can find the Adherence History Report in the Copilot Service workspace by navigating to Workforce Management in the site map and selecting Adherence Historical Analytics.\nBusiness Value:\nOrganizations can gain actionable insights into customer service representative adherence behavior over time. By analyzing trends and deviations, supervisors can make informed decisions to optimize workforce planning, reduce inefficiencies, and improve service-level compliance. Using these insights helps lead to better resource allocation, higher productivity, and an enhanced customer experience.\nEnabled for:\nEnabled by admins/makers/marketers for end users",
+      "description": "The Adherence History Report provides a complete view of customer service representatives’ historical adherence to scheduled tasks and activities. It helps supervisors analyze patterns, identify gaps, and improve workforce efficiency.\nKey capabilities\nTrend chart: Visualize adherence patterns for individual service representatives or the entire team over time.\nMetrics dashboard: Track adherence percentage, total scheduled time, and time spent out of adherence.\nActivity summary view: Access detailed activity records for each service representative, including precise durations for granular analysis.\nYou can find the Adherence History Report in the Copilot Service workspace by navigating to Workforce Management in the site map and selecting Adherence Historical Analytics.\nBusiness Value:\nOrganizations can gain actionable insights into customer service representative adherence behavior over time. By analyzing trends and deviations, supervisors can make informed decisions to optimize workforce planning, reduce inefficiencies, and improve service-level compliance. Using these insights helps lead to better resource allocation, higher productivity, and an enhanced customer experience.\nEnabled for:\nEnabled by admins/makers/marketers for end users\nAvailability\n\n\n\nField\nValue\n\n\n\n\nRelease Channel\n[Weekly]\n\n\nVersion\n[2704.2 build]\n\n\nApplies to\nModel-driven apps\n\n\nFeature Scope\n[Users (enabled by admins or makers)]",
       "status": "Launched",
       "created": "2026-10-16T19:09:36",
-      "modified": "2026-10-16T19:09:36",
+      "modified": "2026-11-06T23:04:41",
       "ga": "June CY2026",
       "gaDate": "2026-06-01T00:00:00.000Z",
       "products": [
@@ -246,23 +246,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566302"
     },
     {
-      "id": "564804",
-      "title": "Microsoft Copilot (Microsoft 365): Multiple Voice Styles in M365 Copilot voice chats",
-      "description": "Users can select from multiple voice style options for their voice experience in M365 Copilot.",
-      "status": "In development",
-      "created": "2026-06-01T23:15:29",
-      "modified": "2026-06-01T23:15:29",
-      "ga": "June CY2026",
-      "gaDate": "2026-06-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564804"
-    },
-    {
       "id": "559017",
       "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs: Pay‑As‑You‑Go usage",
       "description": "Enables metered, pay‑as‑you‑go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre‑assigned licenses, with usage billed based on the agents and models invoked per request.",
@@ -335,9 +318,9 @@
       "id": "562221",
       "title": "Microsoft Copilot Studio: Use MCP-compliant tools in agent workflows",
       "description": "Integrate proprietary systems, dynamic knowledge sources, and custom actions into your agentic workflows with MCP support, accelerating extensibility while preserving workflow reliability. This integration improves reuse across agents and workflows, reduces duplication of integrations, and embraces an emerging open and extensible agent ecosystem.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-05-15T18:00:35",
-      "modified": "2026-05-15T18:00:35",
+      "modified": "2026-11-05T23:59:28",
       "ga": "June CY2026",
       "gaDate": "2026-06-01T00:00:00.000Z",
       "products": [
@@ -2592,9 +2575,9 @@
       "id": "569612",
       "title": "Microsoft Purview: Data Lifecycle Management – Retention for Copilot Memory",
       "description": "Configure retention for Microsoft 365 Copilot memory to help preserve historical versions of memory items for security, compliance, and investigation scenarios. Copilot memory includes saved memories and details inferred from chat history that enable more personalized and context-aware Copilot experiences. Copilot memory items are stored in a hidden folder in the user’s Exchange mailbox. This capability will enable retention and versioning support for inactive memory items so that administrators can maintain visibility into memory changes while active memory continues to be managed by the Copilot experience.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-08-21T22:00:23",
-      "modified": "2026-08-21T22:00:23",
+      "modified": "2026-11-03T00:14:11",
       "ga": "September CY2026",
       "gaDate": "2026-09-01T00:00:00.000Z",
       "products": [
@@ -2867,9 +2850,9 @@
       "id": "567671",
       "title": "Planner: Planner Agent chat in Basic Plans",
       "description": "Introducing built-in Planner Agent chat with natural language Q&amp;A, smart task discovery, and in-plan task management.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-07-14T22:41:38",
-      "modified": "2026-09-09T22:36:54",
+      "modified": "2026-11-06T23:04:41",
       "ga": "September CY2026",
       "gaDate": "2026-09-01T00:00:00.000Z",
       "products": [
@@ -3233,12 +3216,30 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=489825"
     },
     {
+      "id": "577746",
+      "title": "Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
+      "description": "The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights.\nThe native Customer Insights skills (Customer Brief &amp; Value Metrics, Email Content Advisor, and Customer Outreach) invoke tools published through the Dynamics 365 MCP server to retrieve unified customer profile and journey context and to perform supported actions in Customer Insights – Journeys. These tools respect Dynamics 365 business logic and the user's existing permissions on each call. The skills are included in the Customer Insights plugin, providing administrators with a governed way to deploy and manage the capabilities.",
+      "status": "Launched",
+      "created": "2026-11-04T00:02:09",
+      "modified": "2026-11-04T00:02:09",
+      "ga": "October CY2026",
+      "gaDate": "2026-10-01T00:00:00.000Z",
+      "products": [
+        "Dynamics 365 Customer Insights - Data",
+        "Dynamics 365 Customer Insights - Journeys"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577746"
+    },
+    {
       "id": "577392",
       "title": "Microsoft Copilot (Microsoft 365): [Education] Create multi-week unit plans with Teach",
       "description": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit.\n#education",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-10-30T22:08:34",
-      "modified": "2026-10-30T22:08:34",
+      "modified": "2026-11-05T23:59:28",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3290,9 +3291,9 @@
       "id": "576606",
       "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
       "description": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this approach progressively widens availability in concentric rings—starting with the best-fit representatives and expanding outward as needed.\nAdministrators configure this scenario by associating user groups with a queue and defining wait time thresholds for each tier. For example:\n\n0–30 seconds: Assign to Tier 1 specialists (primary user group)\n30–60 seconds: Expand to include Tier 2 representatives (secondary user group)\n60+ seconds: Include all available representatives (tertiary user group)\n\nConversation orchestration monitors each conversation's wait time and automatically expands the eligible pool when thresholds are reached. This process ensures that customers are matched with the most qualified available representative, while preventing excessive wait times when the primary pool is at capacity.\nKey benefits:\n\nBest-fit first: Prioritizes the most qualified representatives before expanding to broader pools.\nAutomatic expansion: No manual intervention required—wait time thresholds trigger expansion automatically.\nConfigurable tiers: Define as many user group tiers as needed, with custom wait time thresholds for each.\nSeamless integration: Works alongside other conversation orchestration scenarios like dynamic priority escalation and overflow based on representative availability.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-10-28T23:04:31",
-      "modified": "2026-10-28T23:04:31",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3340,29 +3341,12 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577745"
     },
     {
-      "id": "577743",
-      "title": "Microsoft Copilot (Microsoft 365): App Blocks",
-      "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other interactive apps. It helps users move beyond static responses to explore data, adjust inputs, visualize outcomes, and simulate workflows in place, while supporting grounded scenarios where current information can be retrieved and then rendered into an interactive experience.",
-      "status": "In development",
-      "created": "2026-10-26T23:15:50",
-      "modified": "2026-10-26T23:15:50",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577743"
-    },
-    {
       "id": "577177",
       "title": "Excel: Edit with Copilot in Excel on iPhone",
       "description": "Edit with Copilot makes it easier to edit and transform your Excel workbooks on your phone using natural language. Copilot can continue working on your task even when you move away from the app, so you can come back when the work is ready. Chat mode also remains available when you want to ask questions and get insights without making changes to your workbook.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-26T23:15:50",
-      "modified": "2026-10-26T23:15:50",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3377,9 +3361,9 @@
       "id": "576607",
       "title": "Dynamics 365 Contact Center: Unified routing - Use overflow actions to protect customer experience for direct inward calls",
       "description": "Overflow for direct inward dialing leverages conversation orchestration to detect key direct inward dialing-related events—such as the representative being busy, offline, rejecting the call, or failing to answer—and apply administrator-defined fallback actions.\nAdministrators configure natural language playbooks using conversation orchestration at the global or inbound profile level to specify the action to run when a direct inward dialed call can't be attended to or completed. The actions include offering a direct callback to the caller, sending them to voicemail, transferring the call to another queue or external number, or ending the call.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-23T23:10:36",
-      "modified": "2026-10-23T23:10:36",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3413,9 +3397,9 @@
       "id": "577788",
       "title": "Dynamics 365 Contact Center: Unified routing - Orchestrate conversation distribution with natural language playbooks",
       "description": "Conversation orchestration in Dynamics 365 Contact Center keeps every conversation actively managed throughout its lifecycle, from initiation through resolution. Instead of applying fixed rules at different stages of a conversation journey, conversation orchestration monitors each conversation as conditions evolve, like wait time increases, fast-filling queues, or service representatives going offline, and responds automatically with the right action. For example, administrators can define the intent using natural-language playbooks as follows: \"If a premium customer waits for more than three minutes and no senior agents are available, increase their priority and offer a callback.\" Conversation orchestration then handles how it's run in real time.\nYou can configure playbooks per scenario through guided templates that keep instructions focused and reliable. Built-in validation catches conflicts before anything goes live, so that you confidently publish changes without needing to test every edge case manually.\nThe key capabilities are as follows:\n\nDynamic priority escalation: In traditional systems, conversation priority is typically set once, at entry, and never revisited. This means a customer who has been waiting for 10 minutes competes for the same expert as another customer who has just arrived, and a conversation that’s transferred mid-journey resets to whatever the new queue's default priority is. Dynamic priority escalation fixes this by continuously re-evaluating priority as the conversation progresses. You define the conditions such as wait time thresholds, queue transfers, customer tier, or other context and conversation orchestration adjusts priority automatically throughout the conversation lifecycle. High-value or long-waiting customers move forward without anyone watching the queue manually.\n\nOverflow handling across multiple conditions: Conversation orchestration supports a broader set of business triggered overflow conditions, allowing organizations to respond intelligently as queue conditions change. Administrators can define actions when a queue is outside operating hours, when all representatives in a queue are signed out or unavailable, when queue wait time exceeds a defined threshold, or when the number of waiting conversations surpasses a specified limit. Depending on the situation, orchestration can automatically offer callbacks, route conversations to alternate queues, expand assignment eligibility, notify supervisors, or deliver contextual customer messages. This ensures customers are never left waiting without a defined path forward. Admins can also configure overflow handling for direct inward dial calls now, when reps are not available or don't accept the calls.\n\nAssign to a previously engaged or preferred representative: Customers often need to repeat information when they are connected to a new representative for every interaction. Conversation orchestration helps maintain continuity by reconnecting customers with previously engaged or preferred representatives whenever possible. Assignment decisions take into account historical interactions, queue membership alignment, representative availability, and workload capacity. For asynchronous conversations, organizations can choose to honor representative presence status and active conversation limits before reconnecting customers, ensuring returning conversations are assigned only when the preferred representative has capacity to engage. When the preferred or previously engaged representative is unavailable, conversations seamlessly fall back to the next best qualified representative. This reduces customer effort, improves resolution efficiency, and delivers a more personalized support experience.\n\nBullseye routing: Finding the right representative often requires balancing expertise with response times. Bullseye routing enables organizations to gradually expand the pool of eligible representatives when a conversation isn't assigned within a defined timeframe. Administrators can define progressive routing rings that begin with the most qualified representatives and then expand to broader groups based on skills, proficiency levels, teams, or other business criteria. This approach maximizes the likelihood of connecting customers with the best-qualified representative while ensuring conversations don't wait indefinitely for a specific resource.\n\n\nThese capabilities are the first in a broad and growing set of orchestration scenarios that conversation orchestration will support across the full conversation lifecycle, spanning overflow management, priority handling, assignment strategies, in-conversation messaging, and escalation. Each new capability builds on the same natural-language playbook foundation, so organizations can adopt new scenarios without rebuilding what they have already configured.\nBusiness Value:\nTraditional automatic conversation distribution systems rely on complex rules and static configuration that are difficult to maintain and can't adapt as conditions change throughout the conversation lifecycle. Unified routing with its new AI-powered conversation orchestration uses the power of agentic AI to continuously monitor events throughout the entire conversation lifecycle and responds with the right action when required.\nThis is a shift from a static system to an orchestration layer that remains active and intelligent from the moment a conversation arrives in a queue until it's resolved. The new feature reduces administrative complexity and helps deliver more flexible customer experiences at scale, even under fluctuating demand.\nEnabled for:\nEnabled by admins/makers/marketers for end users",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-22T23:45:24",
-      "modified": "2026-10-22T23:45:24",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3500,9 +3484,9 @@
       "id": "576759",
       "title": "Dynamics 365 Contact Center: Unified routing - Handle waiting conversations when queues close or become unstaffed",
       "description": "This capability enhances queue handling by intelligently detecting two key scenarios where conversations would otherwise remain unserved:\n\nQueue transitions to out-of-operating hours: The system continuously monitors active conversations that entered a queue before closing time. If the queue transitions to out-of-operating hours while conversations are still waiting, it automatically applies admin-defined overflow actions. Customers can be guided to leave a voicemail, request a callback, or be transferred to another available queue, ensuring a smooth end-of-day experience without manual intervention.\n\nNo service representatives are signed in: The system evaluates real-time representative availability. If all representatives assigned to a queue are signed out, it immediately triggers the configured fallback action instead of waiting for in-queue overflow timers. This is especially valuable in scenarios such as mass logout events, unexpected breaks, or holidays not captured in operating hours.\n\n\nAdministrators configure both scenarios using natural language prompts in conversation orchestration, enabling fine-grained control over queue behavior. This ensures customers are always routed to the best possible outcome, even when direct support is unavailable.\nBusiness Value:\nThis capability ensures customers are never left waiting when representatives aren't available. Whether a queue transitions to be out-of-operating hours or all support representatives are logged out, the system proactively routes conversations to configured fallback options such as voicemail, callback, or alternative queues.\nOrganizations benefit from reduced wait times and lower abandonment, improved customer satisfaction during peak load or unexpected staffing gaps, and a more predictable service experience regardless of representative availability. At the same time, this eliminates the need for manual queue draining or extended shifts, helping protect service representative wellbeing while maintaining consistent service levels.\nEnabled for:\nEnabled by admins/makers/marketers for end users",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-16T19:08:43",
-      "modified": "2026-10-16T19:08:43",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3553,9 +3537,9 @@
       "id": "576746",
       "title": "Dynamics 365 Contact Center: Unified routing - Assign conversation to expert who engaged with the customer previously",
       "description": "Assign to a previously engaged or preferred expert leverages historical interaction context, queue membership alignment, and expert availability, to ensure customers are reconnected with experts who already understand their issue. When the previous or preferred expert is unavailable, assignments seamlessly fall back to the next best qualified expert, preserving service levels and reliability. This capability reduces repeat explanations, accelerates resolution times, and improves customer satisfaction, helping businesses lower cost to serve while delivering more consistent, personalized support experiences at scale. Administrators define assignment logic using natural language-based playbooks in conversation orchestration, with configurable lookback period to determine the time range until when the system should look for a previously engaged expert.\nFor asynchronous conversations, administrators can also choose to reconnect customers with the same expert by checking the expert’s current presence status and honoring active conversation limits, ensuring returning conversations are assigned only when the expert has capacity to engage.\nBusiness Value:\nBy automatically assigning customers to a previous or preferred expert, you deliver faster, more personalized support. By routing repeat or follow up conversations to the most recent or preferred expert within configurable time windows, you reduce customer repetition, improve continuity, and accelerate resolution. When the previous expert is unavailable, the system intelligently falls back to the next best qualified expert, ensuring service levels are maintained. This leads to lower handling times, higher customer satisfaction, and improved expert efficiency.\nEnabled for:\nEnabled by admins/makers/marketers for end users",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-16T19:08:30",
-      "modified": "2026-10-16T19:08:30",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -3687,23 +3671,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570966"
-    },
-    {
-      "id": "571400",
-      "title": "Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
-      "description": "Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins.",
-      "status": "In development",
-      "created": "2026-10-02T22:01:21",
-      "modified": "2026-10-02T22:01:21",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571400"
     },
     {
       "id": "573380",
@@ -3897,9 +3864,9 @@
       "id": "571308",
       "title": "OneDrive: Prompt gallery for Copilot",
       "description": "Discover easier ways to use Copilot in OneDrive\nThe new Prompt Gallery offers ready-to-use prompts for common file tasks, helping you get started quickly, discover what Copilot can do, and customize prompts to fit your needs.\nAccess the Prompt Gallery from:\nThe Copilot button in the bottom-right corner of OneDrive\nThe + button in the Copilot chat pane\nSelect Open Prompt Gallery to explore prompts across categories such as Create, Analyze, Find, and Collaborate.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-09-28T22:58:08",
-      "modified": "2026-09-28T22:58:08",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4033,29 +4000,12 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570647"
     },
     {
-      "id": "570440",
-      "title": "Outlook: Inline chat for email drafting",
-      "description": "Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar.",
-      "status": "In development",
-      "created": "2026-09-09T22:36:54",
-      "modified": "2026-09-09T22:36:54",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Outlook"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570440"
-    },
-    {
       "id": "570845",
       "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
       "description": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-09-08T22:57:21",
-      "modified": "2026-10-19T23:15:15",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4122,9 +4072,9 @@
       "id": "568937",
       "title": "Microsoft 365 admin center: Data Quality Report for Profile Data",
       "description": "Microsoft 365 Organizational Data Services is introducing a new data quality report that helps administrators assess the coverage and health of people data used across Microsoft 365 experiences. High-quality people data enables users to more effectively discover and learn about colleagues through experiences such as the People Card, Org Explorer, Microsoft 365 Copilot, and Microsoft 365 Cowork. The new report provides organizational data administrators, People Administrators, and AI Administrators with visibility into the completeness and quality of people attributes available in Microsoft 365. Administrators can use these insights to identify data gaps, improve attribute coverage, and help ensure users and AI-powered experiences have access to accurate organizational information. Key benefits: - Monitor the health and completeness of people profile attributes across the organization. - Identify missing or incomplete organizational data that may impact user and AI experiences. - Improve discoverability and organizational understanding in People Card and Org Explorer. - Help increase the effectiveness of Microsoft 365 Copilot and Microsoft 365 Cowork by improving the quality of underlying people data. This feature is available to Organizational Data Administrators, People Administrators, and AI Administrators through Microsoft 365 Organizational Data Services.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-08-27T22:38:48",
-      "modified": "2026-08-27T22:38:48",
+      "modified": "2026-11-05T23:59:28",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4282,9 +4232,9 @@
       "id": "567886",
       "title": "Planner: AI-generated Status Reports in Planner Agent",
       "description": "AI-powered Status Report in Planner Agent turns your plan data into a polished, stakeholder-ready update in minutes. Just ask Planner Agent for a status report and it pulls your task data and transforms it into a clear narrative covering overall status, progress, risks, and what's next. You can easily customize the report to your needs by specifying the audience, tone, length, and sections you want.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-07-28T22:43:45",
-      "modified": "2026-10-06T22:56:31",
+      "modified": "2026-11-06T23:04:41",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4314,30 +4264,12 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567890"
     },
     {
-      "id": "566314",
-      "title": "Planner: Save AI-generated filters in Planner Agent chat",
-      "description": "Save AI-filters generated by the Planner Agent for future use on your plans.",
-      "status": "In development",
-      "created": "2026-06-30T22:57:58",
-      "modified": "2026-08-19T22:58:06",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566314"
-    },
-    {
       "id": "566702",
       "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
       "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-06-29T23:02:39",
-      "modified": "2026-09-18T22:00:04",
+      "modified": "2026-11-03T00:14:11",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4366,24 +4298,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566701"
-    },
-    {
-      "id": "566322",
-      "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
-      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
-      "status": "In development",
-      "created": "2026-06-18T23:00:06",
-      "modified": "2026-09-24T22:58:55",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566322"
     },
     {
       "id": "562220",
@@ -4424,10 +4338,10 @@
     {
       "id": "561026",
       "title": "Microsoft Copilot (Microsoft 365): Generate documents using forms in SharePoint with Power Automate",
-      "description": "We are introducing a new Power Automate action that enables automated document generation using document generation (DocGen) forms in SharePoint. \nGenerate document from form (Preview) allows customers to create documents from a template by mapping data inputs to predefined template fields.\nDocuments are generated as part of an automated flow and stored in SharePoint.\nThis capability supports scenarios such as creating contracts, invoices, letters, or reports using structured templates and form-driven inputs.\nThe action works by mapping input data to template fields and returns the generated document along with file metadata such as location and status.",
-      "status": "In development",
+      "description": "We are introducing a new Power Automate action that enables automated document generation using document generation (DocGen) forms in SharePoint.\nGenerate document from form (Preview) allows customers to create documents from a template by mapping data inputs to predefined template fields.\nDocuments are generated as part of an automated flow and stored in SharePoint.\nThis capability supports scenarios such as creating contracts, invoices, letters, or reports using structured templates and form-driven inputs.\nThe action works by mapping input data to template fields and returns the generated document along with file metadata such as location and status.",
+      "status": "Launched",
       "created": "2026-04-30T23:30:16",
-      "modified": "2026-09-01T23:00:02",
+      "modified": "2026-11-04T00:02:09",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4513,9 +4427,9 @@
       "id": "558286",
       "title": "Microsoft Teams: Intelligent meeting recap available without saving transcript",
       "description": "Intelligent recap can now be generated without retaining a transcript after the meeting. Meeting organizers can choose this setting from the meeting options before the meeting, or organizers and eligible participants can enable it during the meeting. After the meeting, the AI Summary will be available, but other elements of the recap may not be available (Chapters, Topics, Mentions, Audio recap).",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2026-03-25T23:15:06",
-      "modified": "2026-10-13T23:01:05",
+      "modified": "2026-11-04T00:02:09",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4567,9 +4481,9 @@
       "id": "542181",
       "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
       "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-      "status": "Rolling out",
+      "status": "Launched",
       "created": "2025-12-17T00:15:13",
-      "modified": "2026-10-19T23:15:15",
+      "modified": "2026-11-03T00:14:11",
       "ga": "October CY2026",
       "gaDate": "2026-10-01T00:00:00.000Z",
       "products": [
@@ -4651,25 +4565,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=499423"
     },
     {
-      "id": "487852",
-      "title": "Microsoft Copilot (Microsoft 365): Realtime voice interactions in Word and PowerPoint",
-      "description": "Use your voice to talk with Copilot, interact in-real time, and understand the content within your document or presentation. Updated September 9, 2026: We will be re-releasing this feature with updates in October. Thank you for your patience.",
-      "status": "In development",
-      "created": "2025-05-13T23:00:09",
-      "modified": "2026-09-18T22:00:04",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "PowerPoint",
-        "Word"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=487852"
-    },
-    {
       "id": "489822",
       "title": "Microsoft Edge: v.144 - Contextual nudges on address bar offering help summarizing webpages.",
       "description": "Microsoft Edge for Business plans to introduce an easy way for users to get summaries of their open page from the address bar using Microsoft 365 Copilot Chat. This feature seeks to help users more easily understand relevant content and save time.",
@@ -4686,42 +4581,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=489822"
-    },
-    {
-      "id": "422324",
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Iphone)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively. We inadvertently marked this item as rolling out and now have updated it to be accurate.  We apologize for any inconvenience.",
-      "status": "In development",
-      "created": "2024-10-22T23:00:59",
-      "modified": "2026-09-30T23:31:03",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=422324"
-    },
-    {
-      "id": "422323",
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
-      "status": "In development",
-      "created": "2024-10-22T23:00:59",
-      "modified": "2026-09-30T23:31:03",
-      "ga": "October CY2026",
-      "gaDate": "2026-10-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=422323"
     },
     {
       "id": "420335",
@@ -4741,12 +4600,65 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=420335"
     },
     {
+      "id": "570866",
+      "title": "Work IQ: Execute (Recipes)",
+      "description": "Enable agents to execute reusable Work IQ recipes that coordinate supported tools and actions.",
+      "status": "In development",
+      "created": "2026-11-06T23:04:41",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Work IQ",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570866"
+    },
+    {
+      "id": "578868",
+      "title": "Microsoft Viva: Insights and Copilot Analytics in GCC and GCC High",
+      "description": "We are expanding the availability of Viva Insights and Copilot Analytics capabilities in Microsoft 365 Government Community Cloud (GCC, or GCC-M) and GCC High (GCC-H). Availability differs for a small number of capabilities by cloud, as noted below.\n•\tEligible users will see updated Insights app features and supported Insights Admin Center experiences.\n•\tAdoption and Impact experiences will include supported Copilot usage and impact measures, group and app views, trends, and filters.\n•\tAnalysts will gain access to additional Advanced Analysis reports and queries. Supported users will also have sharing, delegation, and report-publishing capabilities.\nCloud-specific differences\n•\tGCC only: Adoption by app for Edge and the Microsoft 365 Copilot app.\n•\tGCC High:  Impact supports scope, organization, and time-period filters, but not license, job-function, or usage-level filters.  Creating an analysis excludes Copilot.",
+      "status": "In development",
+      "created": "2026-11-05T23:59:28",
+      "modified": "2026-11-05T23:59:28",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578868"
+    },
+    {
+      "id": "578864",
+      "title": "Microsoft 365 Copilot (Microsoft 365): Accounting skills",
+      "description": "Streamline corporate accounting work\nNew accounting capabilities in Excel and Cowork help accountants spend less time on repetitive, manual tasks in the places they already work, including:\n•\tReconcile accounts with confidence: Compare balances and transactions, identify discrepancies, and prepare reconciling items for review.\n•\tPrepare journal entries faster: Draft accruals, reclassifications, allocations, reversals, and recurring entries, with checks for required inputs and balanced entries.\n•\tTurn results into clear reporting: Analyze financial performance against plan, identify key drivers, and prepare reporting that explains what changed and why.\nAdditional capabilities span audit, tax, FP&amp;A, compliance, and training. Learn more about the full set of accounting capabilities here.\nAccountants are already putting these capabilities to work. In seven days of limited Insiders availability, more than 8,000 unique users invoked accounting skills over 44,000 times across more than 18,000 Copilot conversations.\nAcross Excel and Cowork, finance professionals will also have the option to start an audit trail whenever they invoke an accounting capability. If selected, this will create a record in their chat history of what Copilot changed and why. This is available today in Excel and coming soon to Cowork.",
+      "status": "In development",
+      "created": "2026-11-05T23:59:28",
+      "modified": "2026-11-05T23:59:28",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Excel",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578864"
+    },
+    {
       "id": "578225",
       "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
       "description": "Frontier is expanding to bring eligible public preview features across Microsoft 365 into one program. Users enrolled in Frontier can get eligible previews for new Outlook for Windows, OneDrive, SharePoint, Microsoft Teams, and Copilot, managed through a single admin-controlled enrollment experience. Frontier enrollment is optional and separate from Standard and Deferred release preferences for generally available features. Existing Frontier users do not need to re-enroll.",
-      "status": "In development",
+      "status": "Launched",
       "created": "2026-10-30T22:08:34",
-      "modified": "2026-10-30T22:08:34",
+      "modified": "2026-11-06T23:04:41",
       "ga": "November CY2026",
       "gaDate": "2026-11-01T00:00:00.000Z",
       "products": [
@@ -4773,6 +4685,23 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577841"
+    },
+    {
+      "id": "577743",
+      "title": "Microsoft Copilot (Microsoft 365): App Blocks",
+      "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other interactive apps. It helps users move beyond static responses to explore data, adjust inputs, visualize outcomes, and simulate workflows in place, while supporting grounded scenarios where current information can be retrieved and then rendered into an interactive experience.",
+      "status": "Rolling out",
+      "created": "2026-10-26T23:15:50",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577743"
     },
     {
       "id": "578069",
@@ -4825,23 +4754,6 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577814"
-    },
-    {
-      "id": "577399",
-      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
-      "status": "In development",
-      "created": "2026-10-22T22:58:40",
-      "modified": "2026-10-23T21:59:27",
-      "ga": "November CY2026",
-      "gaDate": "2026-11-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "securityCompliance": false,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577399"
     },
     {
       "id": "577173",
@@ -5284,9 +5196,9 @@
       "id": "571299",
       "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
       "description": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-09-15T23:00:36",
-      "modified": "2026-09-16T22:57:03",
+      "modified": "2026-11-04T00:02:09",
       "ga": "November CY2026",
       "gaDate": "2026-11-01T00:00:00.000Z",
       "products": [
@@ -5422,9 +5334,9 @@
       "id": "567315",
       "title": "Planner: Capabilities in Microsoft Cowork",
       "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2026-07-07T23:01:01",
-      "modified": "2026-10-21T23:02:10",
+      "modified": "2026-11-03T00:14:11",
       "ga": "November CY2026",
       "gaDate": "2026-11-01T00:00:00.000Z",
       "products": [
@@ -5435,6 +5347,24 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567315"
+    },
+    {
+      "id": "566314",
+      "title": "Planner: Save AI-generated filters in Planner Agent chat",
+      "description": "Save AI-filters generated by the Planner Agent for future use on your plans.",
+      "status": "In development",
+      "created": "2026-06-30T22:57:58",
+      "modified": "2026-11-03T00:14:11",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566314"
     },
     {
       "id": "566703",
@@ -5453,6 +5383,24 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566703"
+    },
+    {
+      "id": "566322",
+      "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
+      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
+      "status": "In development",
+      "created": "2026-06-18T23:00:06",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "OneNote",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566322"
     },
     {
       "id": "562648",
@@ -5525,24 +5473,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560538"
     },
     {
-      "id": "558933",
-      "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
-      "description": "Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods and when a transcript was not saved. This enables Copilot to continue answering questions about past meetings even after the transcript expires or the meeting is over. Admins can also configure how long this AI-generated meeting memory file is stored.",
-      "status": "In development",
-      "created": "2026-04-08T23:00:03",
-      "modified": "2026-10-13T23:01:05",
-      "ga": "November CY2026",
-      "gaDate": "2026-11-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "securityCompliance": true,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558933"
-    },
-    {
       "id": "551195",
       "title": "Microsoft Copilot (Microsoft 365): Enhanced M365 Copilot Memory - Copilot is now personalized with work data",
       "description": "Copilot now uses M365 activity to provide more relevant, contextual responses. Updated settings make it easier to view and manage what Copilot remembers and your personalization preferences.",
@@ -5599,9 +5529,9 @@
       "id": "519571",
       "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
       "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
-      "status": "In development",
+      "status": "Rolling out",
       "created": "2025-10-27T23:15:26",
-      "modified": "2026-10-16T22:00:35",
+      "modified": "2026-11-05T00:00:11",
       "ga": "November CY2026",
       "gaDate": "2026-11-01T00:00:00.000Z",
       "products": [
@@ -5648,6 +5578,95 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=499898"
+    },
+    {
+      "id": "422324",
+      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Iphone)",
+      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively. We inadvertently marked this item as rolling out and now have updated it to be accurate.  We apologize for any inconvenience.",
+      "status": "In development",
+      "created": "2024-10-22T23:00:59",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "OneNote"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=422324"
+    },
+    {
+      "id": "422323",
+      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
+      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
+      "status": "In development",
+      "created": "2024-10-22T23:00:59",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "November CY2026",
+      "gaDate": "2026-11-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "OneNote"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=422323"
+    },
+    {
+      "id": "566523",
+      "title": "Microsoft Teams: Facilitator follow-up mode",
+      "description": "Chat naturally with Facilitator without tagging it each time.",
+      "status": "In development",
+      "created": "2026-11-06T23:04:41",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566523"
+    },
+    {
+      "id": "578859",
+      "title": "Microsoft Teams: Copilot in the Queues app on Mobile",
+      "description": "Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call",
+      "status": "In development",
+      "created": "2026-11-04T00:02:09",
+      "modified": "2026-11-04T00:02:09",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578859"
+    },
+    {
+      "id": "573170",
+      "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+      "description": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments.\nThese reports will provide administrators with organization-level and user-level insights to help them understand usage and adoption of these Copilot capabilities.",
+      "status": "In development",
+      "created": "2026-11-03T00:14:11",
+      "modified": "2026-11-03T00:14:11",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft 365 admin center"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573170"
     },
     {
       "id": "576708",
@@ -5702,6 +5721,23 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577405"
     },
     {
+      "id": "577399",
+      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
+      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
+      "status": "In development",
+      "created": "2026-10-22T22:58:40",
+      "modified": "2026-11-04T00:02:09",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577399"
+    },
+    {
       "id": "576762",
       "title": "Dynamics 365 Finance: Business performance - MCP for ERP Analytics",
       "description": "MCP for Analytics provides AI agents with structured access to ERP analytics data and tools. It ensures agents use the same definitions and models as users.\nKey benefits:\n\nData Access: Gives agents access to ERP analytics data for analysis and insights.\nMetrics and Dimensions: Provides access to key metrics, dimensions, and relationships used in reporting.\nSemantic Model: Exposes the full semantic model to support consistent interpretation of data.\nTool Access: Enables agents to connect with tools like Power BI and Business Performance Analytics.\n\nMCP makes ERP analytics data agent-ready, reliable, and explainable.\nBusiness Value:\nMCP for Analytics allows agents to access ERP analytics data and tools with context. It ensures consistency across metrics, dimensions, and hierarchies so agents can reason reliably. This improves trust in insights, reduces duplication, and simplifies development of explainable agent experiences.\nEnabled for:\nEnabled for admins/makers/marketers automatically",
@@ -5738,6 +5774,23 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576755"
     },
     {
+      "id": "571400",
+      "title": "Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
+      "description": "Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins.",
+      "status": "In development",
+      "created": "2026-10-02T22:01:21",
+      "modified": "2026-11-04T23:59:50",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571400"
+    },
+    {
       "id": "571886",
       "title": "Microsoft Copilot (Microsoft 365): Local inferencing",
       "description": "Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography.\nLaunching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response.",
@@ -5770,6 +5823,23 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570846"
+    },
+    {
+      "id": "570440",
+      "title": "Outlook: Inline chat for email drafting",
+      "description": "Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar.",
+      "status": "In development",
+      "created": "2026-09-09T22:36:54",
+      "modified": "2026-11-05T23:59:28",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Outlook"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570440"
     },
     {
       "id": "570847",
@@ -5856,6 +5926,23 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567009"
+    },
+    {
+      "id": "564804",
+      "title": "Microsoft Copilot (Microsoft 365): Multiple Voice Styles in M365 Copilot voice chats",
+      "description": "Users can select from multiple voice style options for their voice experience in M365 Copilot.",
+      "status": "In development",
+      "created": "2026-06-01T23:15:29",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564804"
     },
     {
       "id": "562345",
@@ -5976,6 +6063,42 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=503771"
+    },
+    {
+      "id": "487852",
+      "title": "Microsoft Copilot (Microsoft 365): Realtime voice interactions in Word and PowerPoint",
+      "description": "Use your voice to talk with Copilot, interact in-real time, and understand the content within your document or presentation. Updated September 9, 2026: We will be re-releasing this feature with updates in October. Thank you for your patience.",
+      "status": "In development",
+      "created": "2025-05-13T23:00:09",
+      "modified": "2026-11-06T23:04:41",
+      "ga": "December CY2026",
+      "gaDate": "2026-12-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "PowerPoint",
+        "Word"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=487852"
+    },
+    {
+      "id": "577884",
+      "title": "Dynamics 365 Supply Chain Management: Reimagine creation Phase In/Out rules to make it easier for users to enter in large volumes ",
+      "description": "Reimagine creation Phase In/Out rules.\n\nAllow users to pre-select Tables and Fields at Group level that will be populated on every rules.\nIf a Table key field like Product ID is included in the rules, then auto fill related fields with values like Product Name, Product Group etc.\nSupport for Phase In a new Product with out pointing to and old Product.\nSupport Delete of a Dimension or Dimension combination so it no longer appear in timeseries\nInvestigate if rules can be created via Copilot - Cowork",
+      "status": "In development",
+      "created": "2026-11-04T23:59:50",
+      "modified": "2026-11-04T23:59:50",
+      "ga": "January CY2027",
+      "gaDate": "2027-01-01T00:00:00.000Z",
+      "products": [
+        "Dynamics 365 Supply Chain Management"
+      ],
+      "securityCompliance": false,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577884"
     },
     {
       "id": "576277",
@@ -6295,23 +6418,6 @@
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566864"
     },
     {
-      "id": "561552",
-      "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
-      "description": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization.",
-      "status": "In development",
-      "created": "2026-05-12T23:00:33",
-      "modified": "2026-07-20T22:37:15",
-      "ga": "January CY2027",
-      "gaDate": "2027-01-01T00:00:00.000Z",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "securityCompliance": true,
-      "newsLink": null,
-      "newsTitle": null,
-      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561552"
-    },
-    {
       "id": "561036",
       "title": "Microsoft Purview: DSPM – New Microsoft Purview Data Security Posture Management Experience",
       "description": "At Ignite, Microsoft is introducing a major evolution of Purview Data Security Posture Management (DSPM) to help organizations strengthen data security and confidently embrace AI. The new DSPM experience unifies visibility and control across traditional data and AI-driven environments, delivering outcome-based guided workflows that turn insights into actionable steps—so teams can prioritize risks and remediate faster. It brings AI observability, enhanced posture reporting, and intelligent Security Copilot agents to automate tasks like triage and policy management. Plus, Purview now extends coverage beyond Microsoft data with third-party signals from partners like BigID, Cyera, OneTrust, and Varonis, giving security teams a single, streamlined view of sensitive data across clouds and platforms. Together, these innovations make DSPM the central hub for managing data security posture in the era of AI. We are also extending Data Risk Assessments to Fabric and to item-level analysis with new remediation actions like bulk disabling of overshared SharePoint links.",
@@ -6327,6 +6433,24 @@
       "newsLink": null,
       "newsTitle": null,
       "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561036"
+    },
+    {
+      "id": "558933",
+      "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
+      "description": "Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods and when a transcript was not saved. This enables Copilot to continue answering questions about past meetings even after the transcript expires or the meeting is over. Admins can also configure how long this AI-generated meeting memory file is stored.",
+      "status": "In development",
+      "created": "2026-04-08T23:00:03",
+      "modified": "2026-11-03T00:14:11",
+      "ga": "January CY2027",
+      "gaDate": "2027-01-01T00:00:00.000Z",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "securityCompliance": true,
+      "newsLink": null,
+      "newsTitle": null,
+      "link": "https://www.microsoft.com/microsoft-365/roadmap?id=558933"
     },
     {
       "id": "577815",
